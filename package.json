@@ -1,0 +1,23 @@
+{
+  "name": "exercise_hbs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "npx jasmine-browser-runner runSpecs"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^5.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7",
+    "jasmine": "^3.7.0",
+    "jasmine-ajax": "^4.0.0",
+    "jasmine-browser-runner": "^0.5.0"
+  }
+}
